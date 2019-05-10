@@ -112,8 +112,8 @@ body {
     position: relative;
     padding-top: 12px;
     padding-bottom: 12px;
-    color: #fff;
-    background: color(var(--darkgrey) l(-5%)) no-repeat center center;
+    color: #000;
+    background: #ff6d59;
     background-size: cover;
 }
 
@@ -126,7 +126,6 @@ body {
     left: 0;
     z-index: 10;
     display: block;
-    background: rgba(0,0,0,0.18);
 }
 
 .site-header:after {
@@ -152,9 +151,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10vw 4vw;
-    min-height: 200px;
-    max-height: 450px;
+    padding: 0 2vw;
+    height: 130px;
     text-align: center;
 }
 
@@ -298,7 +296,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     align-items: center;
     margin: 0;
     padding: 10px;
-    color: #fff;
+    color: #000;
     opacity: 0.8;
 }
 
@@ -308,7 +306,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 
 .social-link svg {
     height: 1.8rem;
-    fill: #fff;
+    fill: #000;
 }
 
 .social-link-fb svg {
@@ -354,7 +352,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 .rss-button svg {
     margin-bottom: 1px;
     height: 2.1rem;
-    fill: #fff;
+    fill: #000;
 }
 
 @media (max-width: 700px) {
@@ -2232,8 +2230,8 @@ Usage (In Ghost editor):
     position: relative;
     padding-top: 20px;
     padding-bottom: 60px;
-    color: #fff;
-    background: color(var(--darkgrey) l(-15%));
+    color: #000;
+    background: #fff;
 }
 
 .site-footer-content {
@@ -2241,16 +2239,16 @@ Usage (In Ghost editor):
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    color: rgba(255,255,255,0.7);
+    color: #000;
     font-size: 1.3rem;
 }
 
 .site-footer-content a {
-    color: rgba(255,255,255,0.7);
+    color: #000;
 }
 
 .site-footer-content a:hover {
-    color: rgba(255,255,255,1);
+    color: #000;
     text-decoration: none;
 }
 

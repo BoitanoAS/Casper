@@ -1,5 +1,9 @@
 /* Variables
 /* ---------------------------------------------------------- */
+@font-face {
+    font-family: 'wigrum';
+    src: url('../Wigrum-Regular.woff') format('woff');
+  }
 
 :root {
     /* Colours */
@@ -433,6 +437,7 @@ h6 {
     line-height: 1.15;
     font-weight: 700;
     text-rendering: optimizeLegibility;
+    font-family: 'wigrum'
 }
 
 h1 {
