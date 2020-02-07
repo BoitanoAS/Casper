@@ -113,7 +113,7 @@ body {
     padding-top: 12px;
     padding-bottom: 12px;
     color: #000;
-    background: #ff6d59;
+    background: #50c2de;
     background-size: cover;
 }
 
@@ -167,7 +167,7 @@ body {
 }
 
 .site-logo {
-    max-height: 45px;
+    max-height: 85px;
 }
 
 .site-description {
