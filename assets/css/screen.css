@@ -149,10 +149,9 @@ body {
 .site-header-content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0 2vw;
-    height: 130px;
+    align-items: baseline;
+    padding: 0;
+    height: 100px;
     text-align: center;
 }
 .site-header-content-author {
@@ -167,7 +166,8 @@ body {
 }
 
 .site-logo {
-    max-height: 85px;
+    margin-top: 11px;
+    max-height: 40px;
 }
 
 .site-description {
